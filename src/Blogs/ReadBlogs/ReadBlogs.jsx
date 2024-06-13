@@ -47,14 +47,9 @@ const ReadBlogs = () => {
       }
 
       </div>  
-      <div className="category-container">
-      <button onClick={()=> filterCategory("all")}>All</button>
-      <button onClick={()=> filterCategory("programming")}>Programming</button>
-      <button onClick={()=> filterCategory("javascript")}>Javascript</button>
-      <button onClick={()=> filterCategory("html")}>Html</button>
-      <button onClick={()=> filterCategory("css")}>Css</button>
-        
-      </div>
+     
+      
+
 
     </div>
   )

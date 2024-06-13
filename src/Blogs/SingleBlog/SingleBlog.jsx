@@ -52,15 +52,7 @@ const SingleBlog = () => {
       <p>{ blog.description}</p>
 
       </div>  
-      <div className="single-blog-categories">
-        <ul>
-          <li>category1</li>
-          <li>category1</li>
-          <li>category2</li>
-          <li>category3</li>
-          <li>category4</li> 
-        </ul>
-      </div>
+     
 
     </div>
   )

@@ -10,11 +10,11 @@ const BlogCard = (props) => {
     <div className='blog-card'>
        <Link to={`/blog/${blog._id}`}><img className='card-img' src={blog.image? `http://localhost:5000/images/${blog.image}` : ""} alt="" />
 </Link>
-      <h2>{blog.title}</h2>
+      <h2 className='blog-title'>{blog.title}</h2>
     
 
-      <p>{ blog.description.slice(0,100)+"..."}</p>
-      <Link to={`/blog/${blog._id}`}><button>Read More</button></Link>
+      <p className='blog-description'>{ blog.description.slice(0,300)+"..."}</p>
+      <Link to={`/blog/${blog._id}`}><button className='read-btn'>Read More</button></Link>
 
       
     </div>
